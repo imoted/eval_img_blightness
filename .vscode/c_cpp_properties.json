@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/gisen/ros/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/gisen/ros/src/navigation/amcl/include",
+        "/home/gisen/ros/src/sbgisen/cube/cube_base_local_planner/include",
+        "/home/gisen/ros/src/car-maneuver-recovery/include",
+        "/home/gisen/ros/src/clear_and_rotate_recovery/include",
+        "/home/gisen/ros/src/navigation/clear_costmap_recovery/include",
+        "/home/gisen/ros/src/navigation/costmap_2d/include",
+        "/home/gisen/ros/src/sbgisen/cube/cube_control/include",
+        "/home/gisen/ros/src/vision_opencv/cv_bridge/include",
+        "/home/gisen/ros/src/cv_camera/include",
+        "/home/gisen/ros/src/darknet_ros_tracking/darknet_ros/include",
+        "/home/gisen/ros/src/ros_controllers/diff_drive_controller/include",
+        "/home/gisen/ros/src/iai_kinect2/kinect2_bridge/include",
+        "/home/gisen/ros/src/iai_kinect2/kinect2_registration/include",
+        "/home/gisen/ros/src/lh_laser_driver/include",
+        "/home/gisen/ros/src/navigation/map_server/include",
+        "/home/gisen/ros/src/navigation/move_base/include",
+        "/home/gisen/ros/src/navigation/nav_core/include",
+        "/home/gisen/ros/src/navigation/navfn/include",
+        "/home/gisen/ros/src/quanergy_client_ros/include",
+        "/home/gisen/ros/src/navigation/rotate_recovery/include",
+        "/home/gisen/ros/src/steer_drive_ros/stepback_and_steerturn_recovery/include",
+        "/home/gisen/ros/src/usb_cam/include",
+        "/home/gisen/ros/src/vesc/vesc_driver/include",
+        "/home/gisen/ros/src/navigation/voxel_grid/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

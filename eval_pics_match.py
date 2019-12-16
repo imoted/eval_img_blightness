@@ -34,8 +34,8 @@ class VideoCap():
             video_buf.append(frame_1)
             ret_2, frame_2 = self.cap_cam_2.read()
 
-            vel_odom = 0.5  # 現在2sec遅れ。何らかの手法でスピードを取ってきて入れたい。
-            time_diff = 1 / vel_odom
+            vel_odom = 0.5  # 速度m/sec 、現在2sec遅れ。何らかの手法でスピードを取ってきて入れたい。
+            time_diff = 1 / vel_odom  # カメラの取り付け幅を1mと仮定
             if len(video_buf) > self.fps_1 * time_diff:
                 buf_frame_pop_temp = video_buf.pop(0)
                 target_hist_1 = cv2.calcHist(
